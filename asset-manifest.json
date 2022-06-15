@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/Virtual-CV/static/js/main.ae38804e.js",
+    "static/js/787.162bc9a0.chunk.js": "/Virtual-CV/static/js/787.162bc9a0.chunk.js",
+    "index.html": "/Virtual-CV/index.html",
+    "main.ae38804e.js.map": "/Virtual-CV/static/js/main.ae38804e.js.map",
+    "787.162bc9a0.chunk.js.map": "/Virtual-CV/static/js/787.162bc9a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ae38804e.js"
+  ]
+}
