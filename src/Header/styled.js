@@ -1,11 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-    max-width: 1216px;
-    margin: 115px auto;
     display: grid;
     grid-template-columns: min-content 1fr;
-    column-gap: 72px;
+    column-gap: 66px;
     text-align: left;
     grid-template-areas: 
         "image switch"
@@ -13,6 +11,7 @@ export const Container = styled.header`
         "image title"
         "image description"
         "image button"
+        "image empty"
     ;
 `;
 
@@ -25,6 +24,12 @@ export const Image = styled.img`
 export const Switch = styled.span`
     grid-area: switch;
     text-align: right;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 130%;
+    color: ${({theme}) => theme.color.secondaryText};
+    margin-bottom: 38px;
 `;
 
 export const Caption = styled.caption`
@@ -34,6 +39,8 @@ export const Caption = styled.caption`
     font-size: 12px;
     line-height: 130%;
     height: 16px;
+    color: ${({theme}) => theme.color.secondaryText};
+    margin-bottom: 12px;
 `;
 
 export const Title = styled.h1`
@@ -41,6 +48,7 @@ export const Title = styled.h1`
     font-weight: 900;
     font-size: 38px;
     line-height: 46px;
+    margin:0 0 35px;
 `;
 
 export const Content = styled.p`
@@ -48,6 +56,8 @@ export const Content = styled.p`
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
+    color: ${({theme}) => theme.color.secondaryText};
+    margin: 0 0 32px;
 `;
 
 export const Button = styled.button`
@@ -57,4 +67,10 @@ export const Button = styled.button`
     padding: 12px 16px;
     border: 1px solid rgba(209, 213, 218, 0.3);
     border-radius: 4px;
+    color: ${({theme}) => theme.color.white};
+    background-color: ${({theme}) => theme.color.blue};
+    font-weight: 600;
+    font-size: 20.0584px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
 `;
