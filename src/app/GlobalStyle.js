@@ -7,7 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     background-color: ${({theme}) => theme.color.bgLightMode};
     color: ${({theme}) => theme.color.blackText};
     max-width: 1216px;
-    margin: 115px auto;
+    margin: 119px auto;
     }
 
     *, ::after, ::before {

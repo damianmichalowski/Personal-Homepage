@@ -43,7 +43,7 @@ export const Caption = styled.caption`
     margin-bottom: 12px;
 `;
 
-export const Title = styled.h1`
+export const StyledHeader = styled.h1`
     grid-area: title;
     font-weight: 900;
     font-size: 38px;
