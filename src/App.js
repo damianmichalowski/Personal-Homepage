@@ -1,6 +1,7 @@
-import { Header } from "./Header";
+import { Header } from "./Header/index";
 import { List } from "./List/index";
 import { skills, toLearn } from "./List/content";  
+import { Portfolio } from "./Portfolio/index"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         title={"What I want to learn next 🚀"}
         content={toLearn}
       />
+      <Portfolio/>
     </>
   );
 }
