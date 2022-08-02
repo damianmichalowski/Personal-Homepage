@@ -17,6 +17,14 @@ export const StyledList = styled.ul`
     column-gap: 115px;
     list-style: none;
     margin: 0;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
+        column-count: 2;
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+        column-count: 1;
+    }
 `;
 
 export const ListItem = styled.li`

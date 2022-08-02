@@ -21,11 +21,18 @@ export const Subtitle = styled.p`
 
 export const TilesWrapper = styled.div`
     margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 32px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
 `;
 
 export const Tile = styled.div`
     max-width: 100%;
-    width: 592px;
     height: 322px;
     padding: 56px;
     background-color: ${({theme}) => theme.color.white};
@@ -64,4 +71,12 @@ export const LinkTitle = styled.span`
 
 export const Link = styled.a`
 
+`;
+
+export const Loader = styled.h2`
+
+`;
+
+export const Error = styled.h2`
+    
 `;

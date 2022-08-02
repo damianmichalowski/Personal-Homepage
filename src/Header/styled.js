@@ -13,12 +13,26 @@ export const Container = styled.header`
         "image button"
         "image empty"
     ;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
+        grid-template-areas: 
+        "image switch"
+        "captions captions"
+        "title title"
+        "description description"
+        "button button"
+    ;
+    }
 `;
 
 export const Image = styled.img`
     grid-area: image;
     width: 398px;
     border-radius: 50%;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
+        width: 132.67px;
+    }
 `;
 
 export const Switch = styled.span`
@@ -41,6 +55,10 @@ export const Caption = styled.caption`
     height: 16px;
     color: ${({theme}) => theme.color.secondaryText};
     margin-bottom: 12px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
+        margin-top: 12px;
+    }
 `;
 
 export const StyledHeader = styled.h1`

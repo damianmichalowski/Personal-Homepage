@@ -12,6 +12,7 @@ export const theme = {
         bgNeutral: "rgba(209, 213, 218, 0.3)",
     },
     breakpoint: {
-        mobileMax: 767,
+        mobile: 767,
+        tablet: 1024,
     },
 };
