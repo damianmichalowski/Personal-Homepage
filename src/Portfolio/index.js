@@ -1,6 +1,7 @@
 import { Title } from "../Common/Title/index"
 import { Section } from "../Common/Section/index"
 import { StyledGitHubIcon, Subtitle, Wrapper, TilesWrapper, Tile, ProjectTitle, Description, LinkWrapper, LinkTitle, Link } from "./styled";
+import { axios } from "axios";
 
 export const Portfolio = () => {
     return (
@@ -22,7 +23,6 @@ export const Portfolio = () => {
                         <LinkTitle>Code: </LinkTitle>
                         <Link href="https://link.code.com">https://link.code.com</Link>
                     </LinkWrapper>
-
                 </Tile>
             </TilesWrapper>
         </Section>
