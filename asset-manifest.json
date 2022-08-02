@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.js": "/Virtual-CV/static/js/main.ae38804e.js",
-    "static/js/787.162bc9a0.chunk.js": "/Virtual-CV/static/js/787.162bc9a0.chunk.js",
-    "index.html": "/Virtual-CV/index.html",
-    "main.ae38804e.js.map": "/Virtual-CV/static/js/main.ae38804e.js.map",
-    "787.162bc9a0.chunk.js.map": "/Virtual-CV/static/js/787.162bc9a0.chunk.js.map"
+    "main.js": "/Personal-Homepage/static/js/main.4bd7de86.js",
+    "static/js/787.162bc9a0.chunk.js": "/Personal-Homepage/static/js/787.162bc9a0.chunk.js",
+    "static/media/me.jpg": "/Personal-Homepage/static/media/me.9409325170c3fef7d4a4.jpg",
+    "static/media/gitHubIcon.svg": "/Personal-Homepage/static/media/gitHubIcon.571d1ccb5b05142ffef2ab4d835a907a.svg",
+    "index.html": "/Personal-Homepage/index.html",
+    "static/media/Ellipse.svg": "/Personal-Homepage/static/media/Ellipse.c28602c8be31d96b4a27bc3627dd6f6f.svg",
+    "main.4bd7de86.js.map": "/Personal-Homepage/static/js/main.4bd7de86.js.map",
+    "787.162bc9a0.chunk.js.map": "/Personal-Homepage/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.ae38804e.js"
+    "static/js/main.4bd7de86.js"
   ]
 }
