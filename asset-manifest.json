@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.js": "/Personal-Homepage/static/js/main.4bd7de86.js",
+    "main.js": "/Personal-Homepage/static/js/main.81661cc9.js",
     "static/js/787.162bc9a0.chunk.js": "/Personal-Homepage/static/js/787.162bc9a0.chunk.js",
     "static/media/me.jpg": "/Personal-Homepage/static/media/me.9409325170c3fef7d4a4.jpg",
+    "static/media/Instagram.svg": "/Personal-Homepage/static/media/Instagram.ee578e609e7fc77094097d0a5bbd7645.svg",
+    "static/media/GitHub.svg": "/Personal-Homepage/static/media/GitHub.911c244f5dd9017a6836a59ffe294087.svg",
     "static/media/gitHubIcon.svg": "/Personal-Homepage/static/media/gitHubIcon.571d1ccb5b05142ffef2ab4d835a907a.svg",
     "index.html": "/Personal-Homepage/index.html",
+    "static/media/linkedin.svg": "/Personal-Homepage/static/media/linkedin.2c26b104242a1c77c13c1498fc1cd787.svg",
+    "static/media/Danger.svg": "/Personal-Homepage/static/media/Danger.368eab1b87e3c2785bab7da11c278b44.svg",
+    "static/media/loader.svg": "/Personal-Homepage/static/media/loader.88a075cf3a7f1af15999cb03bb3a0360.svg",
     "static/media/Ellipse.svg": "/Personal-Homepage/static/media/Ellipse.c28602c8be31d96b4a27bc3627dd6f6f.svg",
-    "main.4bd7de86.js.map": "/Personal-Homepage/static/js/main.4bd7de86.js.map",
+    "main.81661cc9.js.map": "/Personal-Homepage/static/js/main.81661cc9.js.map",
     "787.162bc9a0.chunk.js.map": "/Personal-Homepage/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.4bd7de86.js"
+    "static/js/main.81661cc9.js"
   ]
 }
