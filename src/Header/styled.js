@@ -42,7 +42,7 @@ export const Switch = styled.span`
     font-weight: 700;
     font-size: 12px;
     line-height: 130%;
-    color: ${({theme}) => theme.color.secondaryText};
+    color: ${({ theme }) => theme.color.secondaryText};
     margin-bottom: 38px;
 `;
 
@@ -54,11 +54,11 @@ export const Caption = styled.span`
     line-height: 130%;
     height: 16px;
     text-transform: uppercase;
-    color: ${({theme}) => theme.color.secondaryText};
+    color: ${({ theme }) => theme.color.secondaryText};
     margin-bottom: 12px;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
-        margin-top: 12px;
+        margin: 12.67px 0 8px;
     }
 `;
 
@@ -68,6 +68,12 @@ export const StyledHeader = styled.h1`
     font-size: 38px;
     line-height: 46px;
     margin:0 0 35px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
+        font-size: 22px;
+        line-height: 27px;
+        margin:0 0 16px;
+    }
 `;
 
 export const Content = styled.p`
@@ -75,8 +81,13 @@ export const Content = styled.p`
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
-    color: ${({theme}) => theme.color.secondaryText};
+    color: ${({ theme }) => theme.color.secondaryText};
     margin: 0 0 32px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
+        font-size: 17px;
+        margin: 0 0 24px;
+    }
 `;
 
 export const Button = styled.button`
@@ -86,10 +97,27 @@ export const Button = styled.button`
     padding: 12px 16px;
     border: 1px solid rgba(209, 213, 218, 0.3);
     border-radius: 4px;
-    color: ${({theme}) => theme.color.white};
-    background-color: ${({theme}) => theme.color.blue};
+    color: ${({ theme }) => theme.color.white};
+    background-color: ${({ theme }) => theme.color.blue};
     font-weight: 600;
     font-size: 20.0584px;
     line-height: 24px;
     letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: 0.2s;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
+        width: 138px;
+        height: 46px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &:hover {
+        box-shadow: 2px -2px 0px #8CC2FF, -2px 2px 0px #8CC2FF, 2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;
+    }
+
+    &:active {
+        box-shadow: inset 0px 2px 0px rgba(20, 70, 32, 0.2);
+    }
 `;

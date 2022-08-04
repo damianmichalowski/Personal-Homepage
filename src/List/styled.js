@@ -7,6 +7,11 @@ export const Wrapper = styled.section`
     background-color: ${({theme}) => theme.color.white};
     box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
     border-radius: 4px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
+        margin-top: 48px;
+        padding: 16px;
+    }
 `;
 
 export const StyledList = styled.ul`
@@ -34,6 +39,11 @@ export const ListItem = styled.li`
     letter-spacing: 0.05em;
     margin-bottom: 8px;
     color: ${({theme}) => theme.color.secondaryText};
+    
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
+        font-size: 14px;
+        line-height: 17px;
+    }
 `;
 
 export const Line = styled.div`
@@ -46,4 +56,9 @@ export const Bullet = styled(Circle)`
     width: 9px;
     height: 9px;
     margin-right: 16px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
+        width: 6px;
+        height: 6px;
+    }
 `;
