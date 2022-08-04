@@ -33,11 +33,17 @@ export const Portfolio = () => {
                                 id={repo.id}
                             >
                                 <ProjectTitle>{repo.name}</ProjectTitle>
-                                <Description> {repo.description} </Description>
-                                <LinkWrapper>
-                                    <LinkTitle>Demo: </LinkTitle>
-                                    <Link href={repo.homepage}>https://link.demo.com</Link>
-                                </LinkWrapper>
+                                {
+                                    repo.description &&
+                                    <Description> {repo.description} </Description>
+                                }
+                                {
+                                    repo.homepage &&
+                                    <LinkWrapper>
+                                        <LinkTitle>Demo: </LinkTitle>
+                                        <Link href={repo.homepage}>https://link.demo.com</Link>
+                                    </LinkWrapper>
+                                }
                                 <LinkWrapper>
                                     <LinkTitle>Code: </LinkTitle>
                                     <Link href={repo.html_url}>https://link.code.com</Link>

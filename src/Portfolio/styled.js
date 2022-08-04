@@ -1,10 +1,13 @@
 import styled from "styled-components";
 import { ReactComponent as gitHubIcon  } from "../Images/gitHubIcon.svg";
+import { ReactComponent as spiner  } from "../Images/loader.svg";
+import { ReactComponent as danger  } from "../Images/Danger.svg";
 
 export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 72px;
 `;
 
 export const StyledGitHubIcon = styled(gitHubIcon)`
@@ -45,7 +48,7 @@ export const ProjectTitle = styled.h3`
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
-    margin: 0;
+    margin:0 0 24px;
     color: ${({theme}) => theme.color.blue};
 `;
 
@@ -54,7 +57,7 @@ export const Description = styled.p`
     font-size: 18px;
     line-height: 140%;
     color: ${({theme}) => theme.color.secondaryText};
-    margin: 24px 0 24px;
+    margin-top: 24px;
 `;
 
 export const LinkWrapper = styled.div`
@@ -70,7 +73,7 @@ export const LinkTitle = styled.span`
 `;  
 
 export const Link = styled.a`
-
+    color: ${({theme}) => theme.color.blue};
 `;
 
 export const Loader = styled.h2`
@@ -79,4 +82,8 @@ export const Loader = styled.h2`
 
 export const Error = styled.h2`
     
+`;
+
+export const Spiner = styled(spiner)`
+
 `;

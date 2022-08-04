@@ -46,13 +46,14 @@ export const Switch = styled.span`
     margin-bottom: 38px;
 `;
 
-export const Caption = styled.caption`
+export const Caption = styled.span`
     grid-area: captions;
     text-align: left;
     font-weight: 700;
     font-size: 12px;
     line-height: 130%;
     height: 16px;
+    text-transform: uppercase;
     color: ${({theme}) => theme.color.secondaryText};
     margin-bottom: 12px;
 
